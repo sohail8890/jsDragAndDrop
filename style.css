@@ -1,0 +1,42 @@
+body{
+  background-color: aquamarine;
+}
+
+.imgBox{
+  background-image: url('photo1.jpg')  ; 
+  height: 130px;
+  width: 130px;
+  position: relative;
+  top: 8px;
+  left: 8px;
+ margin-bottom: 110px; 
+ cursor: pointer;
+} 
+
+ img{
+  width: 85%;
+  position: relative;
+  left: 12px;
+}
+
+.whiteBox{
+  height: 145px;
+  width: 145px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 12px;
+  background-color: white;
+}
+
+.hold{
+  border: solid red 4px;
+}
+
+.dashed{
+  background: rgb(214, 206, 206);
+  border-style: dashed;
+}
+
+.hide{
+  display: none;
+}
